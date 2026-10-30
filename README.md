@@ -1,6 +1,6 @@
-ViBilet
+# ViBilet
 
-出会いと別れを繰り返しながら、受け継いでいくデジタルペット。
+### 出会いと別れを繰り返しながら、受け継いでいくデジタルペット。
 
 ViBiletは、Flutter / Dartで開発中のスマートフォン向けデジタル生命体育成アプリです。
 
@@ -15,7 +15,7 @@ LIFEは現実の時間とともに成長し、やがて寿命を迎えます。
 
 ---
 
-Concept
+## Concept
 
 ViBiletでは、デジタル空間に存在する生命体との生活をテーマにしています。
 
@@ -29,9 +29,9 @@ ViBiletでは、デジタル空間に存在する生命体との生活をテー�
 
 ---
 
-Features
+## Features
 
-LIFEとの生活
+### LIFEとの生活
 
 生命体の誕生・命名から育成、寿命までのライフサイクルを管理します。
 
@@ -42,7 +42,7 @@ LIFEとの生活
 - LIFE DATAによる状態確認
 - 状態や行動に応じたアニメーション
 
-Growth & Evolution
+### Growth & Evolution
 
 すべてのLIFEは共通の初期形態「PIX」として誕生します。
 
@@ -52,7 +52,7 @@ Growth & Evolution
 
 ※成長・進化に関する機能およびキャラクターアセットは開発・整備中です。
 
-JUNK DATA
+### JUNK DATA
 
 LIFEが生活するデジタル空間には、不要なデータである "JUNK DATA" が蓄積します。
 
@@ -60,7 +60,7 @@ LIFEが生活するデジタル空間には、不要なデータである "JUNK 
 
 デジタル空間の状態を、視覚的な演出として表現するシステムです。
 
-MEMORY DATA
+### MEMORY DATA
 
 寿命を迎えた生命体の特徴や性質の一部を、"MEMORY DATA" として次世代へ引き継ぐ仕組みです。
 
@@ -70,7 +70,7 @@ MEMORY DATA
 
 ---
 
-Technology
+### Technology
 
 Category| Technology
 Framework| Flutter
@@ -84,7 +84,7 @@ Version Control| Git / GitHub
 
 ---
 
-Development
+### Development
 
 本プロジェクトは個人開発です。
 
@@ -94,7 +94,7 @@ Development
 
 ---
 
-Roadmap
+### Roadmap
 
 今後の主な開発予定は以下のとおりです。
 
@@ -106,7 +106,7 @@ Roadmap
 
 ---
 
-Repository
+### Repository
 
 このリポジトリは、ViBiletの開発状況や制作物を公開するためのものです。
 
@@ -116,7 +116,7 @@ Repository
 
 ---
 
-License
+### License
 
 本リポジトリには、現在オープンソースライセンスを付与していません。
 
