@@ -767,3 +767,130 @@ Users shall be able to perform routine care interactions quickly.
 ### NFR-UX-02
 
 Users shall be able to recognize a lifeform's state through its behavior, animation, and changes to the digital environment, without relying solely on numerical indicators.
+
+### NFR-UX-03
+
+Important growth events shall provide an experience in which the user personally initiates PATCH application.
+
+## 6.6 Notifications
+
+### NFR-NOTIFY-01
+
+Core care features shall remain available even if the user does not grant notification permission.
+
+## 6.7 Extensibility and Compatibility
+
+### NFR-EXT-01 | Ease of Extension
+
+Adding a new character should not, as a rule, require modifications to the existing animation playback engine, care services, or character-type branching logic in the UI.
+
+### NFR-EXT-02 | Separation of Responsibilities
+
+The responsibilities of character-specific data, shared game logic, animation playback, and UI presentation shall be separated.
+
+### NFR-EXT-03 | Compatibility
+
+The system shall preserve character IDs, individual IDs, growth stages, and evolution paths in existing save data and shall safely load legacy definitions.
+
+### NFR-EXT-04 | Testability
+
+Frame settings and playback sequences shall be automatically testable without excessive dependence on actual image rendering.
+
+### NFR-EXT-05 | Localized Changes
+
+Dependencies shall be structured so that character-specific adjustments do not affect other characters.
+
+## 6.8 Privacy
+
+### NFR-PRIVACY-01
+
+The initial release shall not collect personal information unnecessary for raising a lifeform.
+
+---
+
+# 7. Constraints
+
+The initial release shall follow these principles:
+
+- A backend server is not required.
+- Lifeform data is managed locally on the device.
+- A continuous internet connection is not assumed.
+- Each user may raise only one active lifeform at a time.
+- New lifeforms hatch from the common EGG as PIX.
+- No growth branch is selected at birth.
+- The DAY 5 growth branches are BLAZE, FLOW, and BLOOM.
+- Applying the DAY 5 PATCH is mandatory for the standard growth path.
+- The user selects the growth branch at DAY 5.
+- Bond and similar conditions do not restrict DAY 5 PATCH selection in the initial release.
+- The growth branch cannot be selected again at DAY 15.
+- Only lifeforms that qualify for a Lifetime extension at DAY 15 can develop into adults.
+- Time progression does not stop while PATCH application is pending.
+- Detailed game-balance values are not defined in this document.
+
+---
+
+# 8. Glossary
+
+| Term | Definition |
+|---|---|
+| Bond | The current relationship between the user and a lifeform. |
+| Care | The history of care provided to a lifeform. |
+| PIX | The primordial form of LIFE, formed as data within the common EGG coalesces and stabilizes; it has not yet acquired a specific growth branch. |
+| EVOLUTION PATCH | A mechanism for applying data to a lifeform or system to change its state, form, functionality, or other properties. |
+| BLAZE PATCH | A DAY 5 PATCH that transforms PIX into a BLAZE juvenile. |
+| FLOW PATCH | A DAY 5 PATCH that transforms PIX into a FLOW juvenile. |
+| BLOOM PATCH | A DAY 5 PATCH that transforms PIX into a BLOOM juvenile. |
+| Adult PATCH | A PATCH that transforms a lifeform qualifying for a Lifetime extension at DAY 15 into the adult form of its selected branch. |
+| PATCH EVENT | An event associated with growth or other changes that requires the user to select or apply a PATCH. |
+| JUNK DATA | Unnecessary data generated through a lifeform's activities. |
+| LIFE DATA | Information about the lifeform currently being raised. |
+| LIFE SIGNAL LOST | A system message indicating that a lifeform's signal has been lost. |
+| Lifetime | The period during which a lifeform can remain alive. |
+| MEMORY DATA | Inheritable data recovered from a lifeform whose life activity has ended naturally. |
+| SYSTEM PATCH | A mechanism for representing application feature additions within the game's world. |
+| Growth branch | The BLAZE, FLOW, or BLOOM development path determined by the DAY 5 PATCH selection. |
+| Initial form | The PIX form that hatches from the common EGG. |
+| Juvenile | The form between application of the DAY 5 PATCH and development into an adult. |
+| Adult | The form attained after a lifeform qualifies for a Lifetime extension at DAY 15 and applies its adult PATCH. |
+| Transformation | A change to a lifeform's appearance or form caused by a PATCH or similar mechanism. |
+| Natural end of life | Termination of life activity upon reaching the end of the lifeform's Lifetime. |
+| Survival failure | Termination of life activity because survival requirements, such as hunger-related conditions, were not met. |
+| Termination of life activity | A state in which a digital lifeform has ceased activity and can no longer be raised. |
+| Digital lifeform | A lifeform raised by the user within ViBilet. |
+| DigiPellet | Food data given to a digital lifeform. |
+
+---
+
+# 9. Open Issues
+
+The following items remain undecided:
+
+- Official version number for the initial release
+- Supported Android and iOS versions
+- Interaction design and content of the PLAY feature
+- Conditions for automatic feeding
+- Notification conditions and frequency
+- Detailed personality of PIX
+- Daily rhythm of PIX
+- Official species names for the BLAZE, FLOW, and BLOOM juveniles
+- Detailed designs for the BLAZE, FLOW, and BLOOM juveniles
+- Personalities and daily rhythms of the BLAZE, FLOW, and BLOOM juveniles
+- Official species names for each adult form
+- Detailed activity schedules for each adult form
+- Official system classification name for the DAY 5 PATCH
+- Official name of the DAY 15 adult PATCH
+- Detailed presentation of DAY 5 PATCH application
+- Detailed presentation of DAY 15 adult transformation
+- Visual presentation and state changes immediately before DAY 15
+- Future growth branching based on Bond, Care, and care history
+- Special growth paths when a PATCH is not applied
+- Specifications for secret forms
+- Relationship between MEMORY DATA and growth branches
+- Whether growth branches can be inherited by subsequent generations
+- Data eligible for inheritance and the selection method
+- Local data storage mechanism
+- Whether to suppress repeated cleaning confirmations during the same HOME session after the user postpones cleaning with a JUNK index of 25 or higher (see UI specification)
+- Whether to support removal by tapping individual JUNK objects at a JUNK index of 25 or higher (bulk system cleaning is currently the primary approach)
+- Handling changes to the device clock
+- Handling user data when the application is uninstalled or the user changes devices
+
