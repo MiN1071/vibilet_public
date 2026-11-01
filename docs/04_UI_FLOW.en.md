@@ -1,6 +1,6 @@
 # ViBilet — UI and Screen Flow Specification (Public Edition)
 
-> This document provides a public overview of the UI design principles, user experience, major screen responsibilities, and navigation flows for ViBilet Ver. 0.1. It is not a complete implementation specification. Features and visual effects still under development may change.
+> This document provides a public overview of the UI design principles, user experience, major screen responsibilities, and navigation flows for **initial version of ViBilet**. It is not a complete implementation specification. Features and visual effects still under development may change.
 
 ## 1. Document Overview
 
