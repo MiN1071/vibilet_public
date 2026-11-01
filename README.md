@@ -72,13 +72,14 @@ LIFEが生活するデジタル空間には、不要なデータである "JUNK 
 
 ### Technology
 
-Category| Technology
-Framework| Flutter
-Language| Dart
-Data Storage| SharedPreferences
-Notifications| flutter_local_notifications
-Testing| Flutter Test
-Version Control| Git / GitHub
+|Category| Technology|
+|--|--|
+|Framework| Flutter|
+|Language| Dart|
+|Data Storage| SharedPreferences|
+|Notifications| flutter_local_notifications|
+|Testing| Flutter Test|
+|Version Control| Git / GitHub|
 
 初期バージョンはローカルで動作するアプリケーションとして開発しています。
 
