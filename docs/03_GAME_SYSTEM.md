@@ -24,7 +24,7 @@ ViBiletでは、ユーザーが単にパラメータを管理するのではな�
 ### 1.2 関連文書
 
 - `01_REQUIREMENTS.md`：要件定義書
-- `04_UI_FLOW.md`：画面・画面遷移仕様書
+- `04_UI_FLOW.md`：画面仕様書
 - `05_TECHNICAL.md`：技術仕様書
 - `06_TEST.md`：テスト計画書
 
