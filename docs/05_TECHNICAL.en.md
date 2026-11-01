@@ -1,7 +1,5 @@
 # ViBilet Technical Design Specification (Public Edition)
 
-> **Document status:** Public Portfolio Edition / Development in Progress  
-> **Scope:** ViBilet Ver. 0.1  
 > **Note:** This document is a public adaptation of the internal technical design specification, focusing on architecture and design decisions. It includes both implemented mechanisms and planned or extensible designs. Exact game-balance values, internal decision thresholds, and unresolved implementation details are omitted. Refer to the source code and tests to verify the current implementation status.
 
 ## 1. Document Overview and Design Principles
