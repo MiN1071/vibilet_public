@@ -8,7 +8,7 @@ This document describes the UI/UX design principles, key screens, navigation flo
 
 It summarizes the internal detailed screen specification. It intentionally omits exhaustive interaction conditions, numeric thresholds, animation frame details, and unresolved implementation decisions.
 
-###1.1 Related documents
+### 1.1 Related documents
 - `03_GAME_SYSTEM.md`: Game system specification
 - `05_TECHNICAL`: Technical specification
 
