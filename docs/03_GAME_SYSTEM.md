@@ -1,6 +1,5 @@
 # ViBilet ゲームシステム仕様書（公開版）
 
-> **Document status:** Public Portfolio Edition / Development in Progress  
 > **Scope:** ゲームシステムの基本設計と主要な振る舞い  
 > **Note:** 本書は開発中の内部仕様書を基にした公開用の抜粋・再構成版です。数値バランス、詳細な判定条件、内部実装、未確定事項の一部は省略しています。本書に記載した機能がすべて実装・検証済みであることを意味しません。
 
